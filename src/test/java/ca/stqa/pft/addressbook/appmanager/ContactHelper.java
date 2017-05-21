@@ -4,15 +4,14 @@ import ca.stqa.pft.addressbook.model.ContactData;
 import org.openqa.selenium.By;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
-public class ContactHelper extends HelperBase{
+public class ContactHelper extends HelperBase {
 
   public ContactHelper(FirefoxDriver wd) {
     super(wd);
   }
 
-  public void returnToHomePage()
-  {
-   click(By.linkText("home page"));
+  public void returnToHomePage() {
+    click(By.linkText("home"));
   }
 
   public void submitContactCreation() {
@@ -26,5 +25,13 @@ public class ContactHelper extends HelperBase{
     type(By.name("email"), contactData.getEmail());
   }
 
+
+  public void submitDelete() {
+    click(By.xpath("//div/div[4]/form[2]/input[2]"));
+  }
+
+  public void selectContact() {
+    click(By.xpath("//table[@id='maintable']/tbody/tr[2]/td[8]/a/img"));
+  }
 
 }
