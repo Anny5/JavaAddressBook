@@ -9,7 +9,7 @@ import org.testng.annotations.BeforeMethod;
 
 
 public class TestBase {
-  FirefoxDriver wd;
+
   protected final ApplicationManager app = new ApplicationManager();
 
 
