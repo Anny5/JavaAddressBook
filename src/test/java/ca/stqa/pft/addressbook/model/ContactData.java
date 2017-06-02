@@ -34,4 +34,8 @@ public class ContactData {
 
     return email;
   }
+
+  public String getGroup() {
+    return group;
+  }
 }
