@@ -4,6 +4,8 @@
     <bytecodeTargetLevel>
       <module name="addressbook-web-tests_main" target="1.8" />
       <module name="addressbook-web-tests_test" target="1.8" />
+      <module name="HotelApp_main" target="1.8" />
+      <module name="HotelApp_test" target="1.8" />
       <module name="JavaAddressBook_main" target="1.8" />
       <module name="JavaAddressBook_test" target="1.8" />
     </bytecodeTargetLevel>

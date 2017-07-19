@@ -28,7 +28,6 @@ public class NavigationHelper extends HelperBase {
     if (isElementPresent(By.id("maintable"))){
       return;
     }
-   // click(By.xpath("//div[@id='nav']//a[.='home']"));
     click(By.linkText("home"));
   }
 }
